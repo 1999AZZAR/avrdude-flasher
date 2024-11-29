@@ -1,0 +1,476 @@
+{
+    "ATmega Series": {
+        "atmega8": {
+            "name": "ATmega8",
+            "signature": "0x1E9307",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
+        },
+        "m8": {
+            "name": "ATmega8",
+            "signature": "0x1E9307",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
+        },
+        "m8a": {
+            "name": "ATmega8A",
+            "signature": "0x1E9307",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
+        },
+        "m808": {
+            "name": "ATmega808",
+            "signature": "0x1E9359",
+            "flash_size": 8192,
+            "eeprom_size": 256,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "8KB Flash, 256B EEPROM, 1KB SRAM"
+        },
+        "m809": {
+            "name": "ATmega809",
+            "signature": "0x1E935A",
+            "flash_size": 8192,
+            "eeprom_size": 256,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "8KB Flash, 256B EEPROM, 1KB SRAM"
+        },
+        "m8515": {
+            "name": "ATmega8515",
+            "signature": "0x1E9306",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 512B SRAM"
+        },
+        "m8535": {
+            "name": "ATmega8535",
+            "signature": "0x1E9308",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 512B SRAM"
+        },
+        "m16": {
+            "name": "ATmega16",
+            "signature": "0x1E9403",
+            "flash_size": 16384,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "16KB Flash, 512B EEPROM, 1KB SRAM"
+        },
+        "m16a": {
+            "name": "ATmega16A",
+            "signature": "0x1E9403",
+            "flash_size": 16384,
+            "eeprom_size": 512,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "16KB Flash, 512B EEPROM, 1KB SRAM"
+        },
+        "m16u2": {
+            "name": "ATmega16U2",
+            "signature": "0x1E9489",
+            "flash_size": 16384,
+            "eeprom_size": 512,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "16KB Flash, 512B EEPROM, 512B SRAM (USB)"
+        },
+        "m16u4": {
+            "name": "ATmega16U4",
+            "signature": "0x1E9488",
+            "flash_size": 16384,
+            "eeprom_size": 512,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "16KB Flash, 512B EEPROM, 1.25KB SRAM (USB)"
+        },
+        "m32": {
+            "name": "ATmega32",
+            "signature": "0x1E9502",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "m32a": {
+            "name": "ATmega32A",
+            "signature": "0x1E9502",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "m328": {
+            "name": "ATmega328",
+            "signature": "0x1E9514",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "m328p": {
+            "name": "ATmega328P",
+            "signature": "0x1E950F",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "m328pb": {
+            "name": "ATmega328PB",
+            "signature": "0x1E9516",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "m64": {
+            "name": "ATmega64",
+            "signature": "0x1E9602",
+            "flash_size": 65536,
+            "eeprom_size": 2048,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "64KB Flash, 2KB EEPROM, 4KB SRAM"
+        },
+        "m64a": {
+            "name": "ATmega64A",
+            "signature": "0x1E9602",
+            "flash_size": 65536,
+            "eeprom_size": 2048,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "64KB Flash, 2KB EEPROM, 4KB SRAM"
+        },
+        "m640": {
+            "name": "ATmega640",
+            "signature": "0x1E9608",
+            "flash_size": 65536,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "64KB Flash, 4KB EEPROM, 8KB SRAM"
+        },
+        "m128": {
+            "name": "ATmega128",
+            "signature": "0x1E9702",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "128KB Flash, 4KB EEPROM, 4KB SRAM"
+        },
+        "m1280": {
+            "name": "ATmega1280",
+            "signature": "0x1E9703",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "128KB Flash, 4KB EEPROM, 8KB SRAM"
+        },
+        "m1281": {
+            "name": "ATmega1281",
+            "signature": "0x1E9704",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "128KB Flash, 4KB EEPROM, 8KB SRAM"
+        },
+        "m1284p": {
+            "name": "ATmega1284P",
+            "signature": "0x1E9705",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "128KB Flash, 4KB EEPROM, 16KB SRAM"
+        },
+        "m2560": {
+            "name": "ATmega2560",
+            "signature": "0x1E9801",
+            "flash_size": 262144,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "256KB Flash, 4KB EEPROM, 8KB SRAM"
+        },
+        "m2561": {
+            "name": "ATmega2561",
+            "signature": "0x1E9802",
+            "flash_size": 262144,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "256KB Flash, 4KB EEPROM, 8KB SRAM"
+        },
+        "m103": {
+            "name": "ATmega103",
+            "signature": "0x1E9400",
+            "flash_size": 8192,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 1KB EEPROM, 512B SRAM"
+        },
+        "m1284": {
+            "name": "ATmega1284",
+            "signature": "0x1E9705",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "128KB Flash, 4KB EEPROM, 16KB SRAM"
+        },
+        "m1284rfr2": {
+            "name": "ATmega1284RFR2",
+            "signature": "0x1E9707",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "128KB Flash, 4KB EEPROM, 16KB SRAM (RFR2)"
+        },
+        "m128a": {
+            "name": "ATmega128A",
+            "signature": "0x1E9708",
+            "flash_size": 131072,
+            "eeprom_size": 4096,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "128KB Flash, 4KB EEPROM, 4KB SRAM"
+        }
+    },
+    "ATtiny Series": {
+        "t13": {
+            "name": "ATtiny13",
+            "signature": "0x1E9007",
+            "flash_size": 1024,
+            "eeprom_size": 64,
+            "default_lfuse": "0x6A",
+            "default_hfuse": "0xFF",
+            "default_efuse": "0xFF",
+            "description": "1KB Flash, 64B EEPROM, 64B SRAM"
+        },
+        "t13a": {
+            "name": "ATtiny13A",
+            "signature": "0x1E9007",
+            "flash_size": 1024,
+            "eeprom_size": 64,
+            "default_lfuse": "0x6A",
+            "default_hfuse": "0xFF",
+            "default_efuse": "0xFF",
+            "description": "1KB Flash, 64B EEPROM, 64B SRAM"
+        },
+        "t24": {
+            "name": "ATtiny24",
+            "signature": "0x1E910B",
+            "flash_size": 2048,
+            "eeprom_size": 128,
+            "default_lfuse": "0x62",
+            "default_hfuse": "0xDF",
+            "default_efuse": "0xFF",
+            "description": "2KB Flash, 128B EEPROM, 128B SRAM"
+        },
+        "t44": {
+            "name": "ATtiny44",
+            "signature": "0x1E9207",
+            "flash_size": 4096,
+            "eeprom_size": 256,
+            "default_lfuse": "0x62",
+            "default_hfuse": "0xDF",
+            "default_efuse": "0xFF",
+            "description": "4KB Flash, 256B EEPROM, 256B SRAM"
+        },
+        "t84": {
+            "name": "ATtiny84",
+            "signature": "0x1E930C",
+            "flash_size": 8192,
+            "eeprom_size": 512,
+            "default_lfuse": "0x62",
+            "default_hfuse": "0xDF",
+            "default_efuse": "0xFF",
+            "description": "8KB Flash, 512B EEPROM, 512B SRAM"
+        }
+    },
+    "ATxmega Series": {
+        "x16a4": {
+            "name": "ATxmega16A4",
+            "signature": "0x1E9441",
+            "flash_size": 16384,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xFF",
+            "default_efuse": "0x05",
+            "description": "16KB Flash, 1KB EEPROM, 2KB SRAM"
+        },
+        "x32a4": {
+            "name": "ATxmega32A4",
+            "signature": "0x1E9541",
+            "flash_size": 32768,
+            "eeprom_size": 1024,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xFF",
+            "default_efuse": "0x05",
+            "description": "32KB Flash, 1KB EEPROM, 4KB SRAM"
+        },
+        "x64a4": {
+            "name": "ATxmega64A4",
+            "signature": "0x1E9646",
+            "flash_size": 65536,
+            "eeprom_size": 2048,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xFF",
+            "default_efuse": "0x05",
+            "description": "64KB Flash, 2KB EEPROM, 4KB SRAM"
+        }
+    },
+    "AT90 Series": {
+        "90s2313": {
+            "name": "AT90S2313",
+            "signature": "0x1E9101",
+            "flash_size": 2048,
+            "eeprom_size": 128,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "2KB Flash, 128B EEPROM, 128B SRAM"
+        },
+        "90s2333": {
+            "name": "AT90S2333",
+            "signature": "0x1E9102",
+            "flash_size": 2048,
+            "eeprom_size": 128,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "2KB Flash, 128B EEPROM, 128B SRAM"
+        },
+        "90s4414": {
+            "name": "AT90S4414",
+            "signature": "0x1E9201",
+            "flash_size": 4096,
+            "eeprom_size": 256,
+            "default_lfuse": "0xE4",
+            "default_hfuse": "0xD9",
+            "default_efuse": "0xFF",
+            "description": "4KB Flash, 256B EEPROM, 256B SRAM"
+        }
+    },
+    "AVR32 Series": {
+        "uc3a0512": {
+            "name": "AVR32 UC3A0512",
+            "signature": "0x1E9401",
+            "flash_size": 524288,
+            "eeprom_size": 8192,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "512KB Flash, 8KB EEPROM, 32KB SRAM"
+        },
+        "uc3a0256": {
+            "name": "AVR32 UC3A0256",
+            "signature": "0x1E9402",
+            "flash_size": 262144,
+            "eeprom_size": 8192,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "256KB Flash, 8KB EEPROM, 16KB SRAM"
+        }
+    },
+    "ATmega0 Series": {
+        "m0": {
+            "name": "ATmega4809",
+            "signature": "0x1E951E",
+            "flash_size": 49152,
+            "eeprom_size": 2560,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "48KB Flash, 2560B EEPROM, 6KB SRAM"
+        },
+        "m0a": {
+            "name": "ATmega4808",
+            "signature": "0x1E951D",
+            "flash_size": 49152,
+            "eeprom_size": 2560,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "48KB Flash, 2560B EEPROM, 6KB SRAM"
+        }
+    },
+    "ATtiny0 Series": {
+        "t0": {
+            "name": "ATtiny404",
+            "signature": "0x1E9405",
+            "flash_size": 4096,
+            "eeprom_size": 256,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "4KB Flash, 256B EEPROM, 256B SRAM"
+        },
+        "t0a": {
+            "name": "ATtiny414",
+            "signature": "0x1E9406",
+            "flash_size": 4096,
+            "eeprom_size": 256,
+            "default_lfuse": "0xFF",
+            "default_hfuse": "0xDE",
+            "default_efuse": "0x05",
+            "description": "4KB Flash, 256B EEPROM, 256B SRAM"
+        }
+    }
+}
