@@ -1,16 +1,7 @@
 {
     "ATmega Series": {
-        "atmega8": {
-            "name": "ATmega8",
-            "signature": "0x1E9307",
-            "flash_size": 8192,
-            "eeprom_size": 512,
-            "default_lfuse": "0xE4",
-            "default_hfuse": "0xD9",
-            "default_efuse": "0xFF",
-            "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
-        },
         "m8": {
+            "command": "m8",
             "name": "ATmega8",
             "signature": "0x1E9307",
             "flash_size": 8192,
@@ -21,6 +12,7 @@
             "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
         },
         "m8a": {
+            "command": "m8a",
             "name": "ATmega8A",
             "signature": "0x1E9307",
             "flash_size": 8192,
@@ -31,6 +23,7 @@
             "description": "8KB Flash, 512B EEPROM, 1KB SRAM"
         },
         "m808": {
+            "command": "m808",
             "name": "ATmega808",
             "signature": "0x1E9359",
             "flash_size": 8192,
@@ -41,6 +34,7 @@
             "description": "8KB Flash, 256B EEPROM, 1KB SRAM"
         },
         "m809": {
+            "command": "m809",
             "name": "ATmega809",
             "signature": "0x1E935A",
             "flash_size": 8192,
@@ -51,6 +45,7 @@
             "description": "8KB Flash, 256B EEPROM, 1KB SRAM"
         },
         "m8515": {
+            "command": "m8515",
             "name": "ATmega8515",
             "signature": "0x1E9306",
             "flash_size": 8192,
@@ -61,6 +56,7 @@
             "description": "8KB Flash, 512B EEPROM, 512B SRAM"
         },
         "m8535": {
+            "command": "m8535",
             "name": "ATmega8535",
             "signature": "0x1E9308",
             "flash_size": 8192,
@@ -71,6 +67,7 @@
             "description": "8KB Flash, 512B EEPROM, 512B SRAM"
         },
         "m16": {
+            "command": "m16",
             "name": "ATmega16",
             "signature": "0x1E9403",
             "flash_size": 16384,
@@ -81,6 +78,7 @@
             "description": "16KB Flash, 512B EEPROM, 1KB SRAM"
         },
         "m16a": {
+            "command": "m16a",
             "name": "ATmega16A",
             "signature": "0x1E9403",
             "flash_size": 16384,
@@ -91,6 +89,7 @@
             "description": "16KB Flash, 512B EEPROM, 1KB SRAM"
         },
         "m16u2": {
+            "command": "m16u2",
             "name": "ATmega16U2",
             "signature": "0x1E9489",
             "flash_size": 16384,
@@ -101,6 +100,7 @@
             "description": "16KB Flash, 512B EEPROM, 512B SRAM (USB)"
         },
         "m16u4": {
+            "command": "m16u4",
             "name": "ATmega16U4",
             "signature": "0x1E9488",
             "flash_size": 16384,
@@ -111,6 +111,7 @@
             "description": "16KB Flash, 512B EEPROM, 1.25KB SRAM (USB)"
         },
         "m32": {
+            "command": "m32",
             "name": "ATmega32",
             "signature": "0x1E9502",
             "flash_size": 32768,
@@ -121,6 +122,7 @@
             "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "m32a": {
+            "command": "m32a",
             "name": "ATmega32A",
             "signature": "0x1E9502",
             "flash_size": 32768,
@@ -131,6 +133,7 @@
             "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "m328": {
+            "command": "m328",
             "name": "ATmega328",
             "signature": "0x1E9514",
             "flash_size": 32768,
@@ -141,6 +144,7 @@
             "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "m328p": {
+            "command": "m328p",
             "name": "ATmega328P",
             "signature": "0x1E950F",
             "flash_size": 32768,
@@ -151,6 +155,7 @@
             "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "m328pb": {
+            "command": "m328pb",
             "name": "ATmega328PB",
             "signature": "0x1E9516",
             "flash_size": 32768,
@@ -161,6 +166,7 @@
             "description": "32KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "m64": {
+            "command": "m64",
             "name": "ATmega64",
             "signature": "0x1E9602",
             "flash_size": 65536,
@@ -171,6 +177,7 @@
             "description": "64KB Flash, 2KB EEPROM, 4KB SRAM"
         },
         "m64a": {
+            "command": "m64a",
             "name": "ATmega64A",
             "signature": "0x1E9602",
             "flash_size": 65536,
@@ -181,6 +188,7 @@
             "description": "64KB Flash, 2KB EEPROM, 4KB SRAM"
         },
         "m640": {
+            "command": "m640",
             "name": "ATmega640",
             "signature": "0x1E9608",
             "flash_size": 65536,
@@ -191,6 +199,7 @@
             "description": "64KB Flash, 4KB EEPROM, 8KB SRAM"
         },
         "m128": {
+            "command": "m128",
             "name": "ATmega128",
             "signature": "0x1E9702",
             "flash_size": 131072,
@@ -201,6 +210,7 @@
             "description": "128KB Flash, 4KB EEPROM, 4KB SRAM"
         },
         "m1280": {
+            "command": "m1280",
             "name": "ATmega1280",
             "signature": "0x1E9703",
             "flash_size": 131072,
@@ -211,6 +221,7 @@
             "description": "128KB Flash, 4KB EEPROM, 8KB SRAM"
         },
         "m1281": {
+            "command": "m1281",
             "name": "ATmega1281",
             "signature": "0x1E9704",
             "flash_size": 131072,
@@ -221,6 +232,7 @@
             "description": "128KB Flash, 4KB EEPROM, 8KB SRAM"
         },
         "m1284p": {
+            "command": "m1284p",
             "name": "ATmega1284P",
             "signature": "0x1E9705",
             "flash_size": 131072,
@@ -231,6 +243,7 @@
             "description": "128KB Flash, 4KB EEPROM, 16KB SRAM"
         },
         "m2560": {
+            "command": "m2560",
             "name": "ATmega2560",
             "signature": "0x1E9801",
             "flash_size": 262144,
@@ -241,6 +254,7 @@
             "description": "256KB Flash, 4KB EEPROM, 8KB SRAM"
         },
         "m2561": {
+            "command": "m2561",
             "name": "ATmega2561",
             "signature": "0x1E9802",
             "flash_size": 262144,
@@ -251,6 +265,7 @@
             "description": "256KB Flash, 4KB EEPROM, 8KB SRAM"
         },
         "m103": {
+            "command": "m103",
             "name": "ATmega103",
             "signature": "0x1E9400",
             "flash_size": 8192,
@@ -261,6 +276,7 @@
             "description": "8KB Flash, 1KB EEPROM, 512B SRAM"
         },
         "m1284": {
+            "command": "m1284",
             "name": "ATmega1284",
             "signature": "0x1E9705",
             "flash_size": 131072,
@@ -271,6 +287,7 @@
             "description": "128KB Flash, 4KB EEPROM, 16KB SRAM"
         },
         "m1284rfr2": {
+            "command": "m1284rfr2",
             "name": "ATmega1284RFR2",
             "signature": "0x1E9707",
             "flash_size": 131072,
@@ -281,6 +298,7 @@
             "description": "128KB Flash, 4KB EEPROM, 16KB SRAM (RFR2)"
         },
         "m128a": {
+            "command": "m128a",
             "name": "ATmega128A",
             "signature": "0x1E9708",
             "flash_size": 131072,
@@ -293,6 +311,7 @@
     },
     "ATtiny Series": {
         "t13": {
+            "command": "t13",
             "name": "ATtiny13",
             "signature": "0x1E9007",
             "flash_size": 1024,
@@ -303,6 +322,7 @@
             "description": "1KB Flash, 64B EEPROM, 64B SRAM"
         },
         "t13a": {
+            "command": "t13a",
             "name": "ATtiny13A",
             "signature": "0x1E9007",
             "flash_size": 1024,
@@ -313,6 +333,7 @@
             "description": "1KB Flash, 64B EEPROM, 64B SRAM"
         },
         "t24": {
+            "command": "t24",
             "name": "ATtiny24",
             "signature": "0x1E910B",
             "flash_size": 2048,
@@ -323,6 +344,7 @@
             "description": "2KB Flash, 128B EEPROM, 128B SRAM"
         },
         "t44": {
+            "command": "t44",
             "name": "ATtiny44",
             "signature": "0x1E9207",
             "flash_size": 4096,
@@ -333,6 +355,7 @@
             "description": "4KB Flash, 256B EEPROM, 256B SRAM"
         },
         "t84": {
+            "command": "t84",
             "name": "ATtiny84",
             "signature": "0x1E930C",
             "flash_size": 8192,
@@ -345,6 +368,7 @@
     },
     "ATxmega Series": {
         "x16a4": {
+            "command": "x16a4",
             "name": "ATxmega16A4",
             "signature": "0x1E9441",
             "flash_size": 16384,
@@ -355,6 +379,7 @@
             "description": "16KB Flash, 1KB EEPROM, 2KB SRAM"
         },
         "x32a4": {
+            "command": "x32a4",
             "name": "ATxmega32A4",
             "signature": "0x1E9541",
             "flash_size": 32768,
@@ -365,6 +390,7 @@
             "description": "32KB Flash, 1KB EEPROM, 4KB SRAM"
         },
         "x64a4": {
+            "command": "x64a4",
             "name": "ATxmega64A4",
             "signature": "0x1E9646",
             "flash_size": 65536,
@@ -377,6 +403,7 @@
     },
     "AT90 Series": {
         "90s2313": {
+            "command": "90s2313",
             "name": "AT90S2313",
             "signature": "0x1E9101",
             "flash_size": 2048,
@@ -387,6 +414,7 @@
             "description": "2KB Flash, 128B EEPROM, 128B SRAM"
         },
         "90s2333": {
+            "command": "90s2333",
             "name": "AT90S2333",
             "signature": "0x1E9102",
             "flash_size": 2048,
@@ -397,6 +425,7 @@
             "description": "2KB Flash, 128B EEPROM, 128B SRAM"
         },
         "90s4414": {
+            "command": "90s4414",
             "name": "AT90S4414",
             "signature": "0x1E9201",
             "flash_size": 4096,
@@ -409,6 +438,7 @@
     },
     "AVR32 Series": {
         "uc3a0512": {
+            "command": "uc3a0512",
             "name": "AVR32 UC3A0512",
             "signature": "0x1E9401",
             "flash_size": 524288,
@@ -419,6 +449,7 @@
             "description": "512KB Flash, 8KB EEPROM, 32KB SRAM"
         },
         "uc3a0256": {
+            "command": "uc3a0256",
             "name": "AVR32 UC3A0256",
             "signature": "0x1E9402",
             "flash_size": 262144,
@@ -431,6 +462,7 @@
     },
     "ATmega0 Series": {
         "m0": {
+            "command": "m0",
             "name": "ATmega4809",
             "signature": "0x1E951E",
             "flash_size": 49152,
@@ -441,6 +473,7 @@
             "description": "48KB Flash, 2560B EEPROM, 6KB SRAM"
         },
         "m0a": {
+            "command": "m0a",
             "name": "ATmega4808",
             "signature": "0x1E951D",
             "flash_size": 49152,
@@ -453,6 +486,7 @@
     },
     "ATtiny0 Series": {
         "t0": {
+            "command": "t0",
             "name": "ATtiny404",
             "signature": "0x1E9405",
             "flash_size": 4096,
@@ -463,6 +497,7 @@
             "description": "4KB Flash, 256B EEPROM, 256B SRAM"
         },
         "t0a": {
+            "command": "t0a",
             "name": "ATtiny414",
             "signature": "0x1E9406",
             "flash_size": 4096,

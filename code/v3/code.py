@@ -12,6 +12,7 @@ from PyQt6.QtGui import QFont
 
 @dataclass
 class ChipInfo:
+    command: str
     name: str
     signature: str
     flash_size: int
@@ -25,6 +26,7 @@ class ChipInfo:
     def from_dict(cls, data: Dict[str, Any]) -> 'ChipInfo':
         """Create a ChipInfo instance from a dictionary."""
         return cls(
+            command=data['command'],
             name=data['name'],
             signature=data['signature'],
             flash_size=data['flash_size'],
@@ -384,7 +386,7 @@ class AVRFlasherGUI(QMainWindow):
 
     def get_base_command(self):
         """Get base avrdude command with current chip model."""
-        cmd = ["avrdude", "-c", "usbasp", "-p", self.current_chip_info.signature]
+        cmd = ["avrdude", "-c", "usbasp", "-p", self.current_chip_info.command]
 
         # Add advanced options
         if self.advanced_options.bit_clock.value() != 1:
